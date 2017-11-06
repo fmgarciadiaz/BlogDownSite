@@ -5,15 +5,6 @@
     
     <url>
     
-      <loc>/post/pruebq/</loc>
-      <lastmod>2017-11-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00-03:00</lastmod>
     </url>
@@ -178,26 +169,6 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/bueno/</loc>
-      <lastmod>2017-11-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -219,6 +190,16 @@
     
       <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -307,28 +288,8 @@
     
     <url>
     
-      <loc>/categories/si/</loc>
-      <lastmod>2017-11-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/test/</loc>
-      <lastmod>2017-11-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

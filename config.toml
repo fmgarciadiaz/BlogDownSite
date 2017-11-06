@@ -1,5 +1,5 @@
 baseurl = "https://operator-albert-36287.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Academic"
+title = "FERGD"
 copyright = "&copy; 2017 Your Name"
 theme = "hugo-academic"
 enableEmoji = true
