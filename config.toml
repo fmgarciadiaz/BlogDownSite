@@ -1,6 +1,6 @@
 baseurl = "https://operator-albert-36287.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "FERGD"
-copyright = "&copy; 2017 Your Name"
+title = "Fernando García Díaz"
+copyright = "&copy; 2017 Fernando García Díaz"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -210,7 +210,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/Fergd1978"
 
   [[params.social]]
     icon = "google-scholar"
