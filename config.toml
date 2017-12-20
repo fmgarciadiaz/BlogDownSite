@@ -1,5 +1,5 @@
 baseurl = "https://fergd.rbind.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "экономика"
+title = "Economía, "
 copyright = "&copy; 2017 Fernando García Díaz"
 theme = "hugo-academic"
 enableEmoji = true
@@ -15,7 +15,7 @@ disqusShortname = "blogdownsite"
 googleAnalytics = "UA-105397114-2"
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
@@ -48,9 +48,9 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  email = "fmgarciadiaz78@gmail.com"
+  address = "Buenos Aires, Argentina"
+  office_hours = "9-18hs"
   phone = "888 888 88 88"
   skype = "echo123"
   telegram = ""
@@ -104,7 +104,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -205,7 +205,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:fmgarciadiaz78@gmail.com"
 
   [[params.social]]
     icon = "twitter"
@@ -220,7 +220,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/fmgarciadiaz"
 
 
 # Navigation Links
