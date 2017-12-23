@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2017-12"
+date = "2017-12-20"
 
 # Order that this section will appear in.
 weight = 5
