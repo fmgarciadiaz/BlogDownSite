@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Economía,  on Economía, </title>
+    <title>EconoViz  on EconoViz </title>
     <link>/</link>
-    <description>Recent content in Economía,  on Economía, </description>
+    <description>Recent content in EconoViz  on EconoViz </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>es</language>
     <copyright>&amp;copy; 2017 Fernando García Díaz</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
@@ -70,7 +70,7 @@
 &lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;h2&gt;Índice&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -417,7 +417,7 @@ caption = &amp;quot;Image credit: [**Academic**](https://github.com/gcushen/hugo
 &lt;/div&gt;
 
 
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;h2&gt;Índice&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -629,7 +629,7 @@ widgets = true
       <guid>/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
 
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;h2&gt;Índice&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1344,7 +1344,7 @@ $(document).ready(function () {
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
 &lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;h2&gt;Índice&lt;/h2&gt;
 
 
 &lt;div id=&#34;installation&#34; class=&#34;section level2&#34;&gt;

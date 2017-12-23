@@ -55,10 +55,10 @@
 # About widget
 
 - id: interests
-  translation: Interés
+  translation: Intereses
 
 - id: education
-  translation: Educación
+  translation: Formación
 
 # Publications widget
 
