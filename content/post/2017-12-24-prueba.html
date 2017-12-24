@@ -1,0 +1,40 @@
+---
+title: Pruebita vas a ver
+author: FERGD
+date: '2017-12-24'
+slug: prueba
+categories: []
+tags: []
+---
+
+
+
+<p>#Test</p>
+<section id="r-markdown" class="level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+</section>
+<section id="including-plots" class="level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="/post/2017-12-24-prueba_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<pre class="r"><code>library(ggplot2)
+library(treemapify)
+library(hrbrthemes)
+ARG_sociosX &lt;- readRDS(&quot;/Users/fernandogarciadiaz/Dropbox/Trabajo/EconomiaComplejidad/ARG_sociosX.rds&quot;)
+g &lt;- ggplot( data = ARG_sociosX , aes(area = export_val/1000000 , fill = region, subgroup = region)) +
+  treemapify::geom_treemap(color = &quot;white&quot;, size = 1 , alpha = 1) +
+  geom_treemap_text(aes(label = country) , color = &quot;black&quot;, size = 10 , family = font_rc) +
+  geom_treemap_subgroup_border(color = &quot;white&quot;, size = 2) + 
+  geom_treemap_subgroup_text(color = &quot;darkgray&quot;, grow = FALSE , size = 15, , place = &quot;bottomleft&quot;, family = font_rc, fontface = &quot;bold&quot;, alpha = 0.7) +
+  scale_fill_brewer(palette = &quot;Set1&quot;, guide = FALSE) + 
+  scale_color_brewer(palette = &quot;Set1&quot;, guide = FALSE) + theme_ipsum_rc() +
+  labs(title = &quot;Destino de exportaciones industriales argentinas (SITC 5 al 8) - Año 2014&quot;, 
+     caption = &quot;Fuente: F.García Díaz en base a COMTRADE&quot;)
+dim(ARG_sociosX)</code></pre>
+<pre><code>## [1] 179  16</code></pre>
+<pre class="r"><code>g</code></pre>
+<p><img src="/post/2017-12-24-prueba_files/figure-html/cars-1.png" width="672" /></p>
+</section>

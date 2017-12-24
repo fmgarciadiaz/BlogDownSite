@@ -1,5 +1,5 @@
 baseurl = "https://fergd.rbind.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "экономика!"
+title = "EconViz"
 copyright = "&copy; 2017 Fernando García Díaz"
 theme = "hugo-academic"
 enableEmoji = true 
@@ -51,8 +51,8 @@ defaultContentLanguageInSubdir = false
   email = "fmgarciadiaz78@gmail.com"
   address = "Buenos Aires, Argentina"
   office_hours = "9-18hs"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = "-------"
+  skype = "fergd1978"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -215,7 +215,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com.ar/citations?hl=es&pli=1&user=xw9klDoAAAAJ"
 
   [[params.social]]
     icon = "github"
@@ -236,12 +236,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Publicaciones"
   url = "#publications_selected"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   name = "Proyectos"

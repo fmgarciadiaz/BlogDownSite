@@ -26,4 +26,4 @@ weight = 5
 
 # Acerca de...
 
-Soy economista, estructuralista y desarrollista. 
+Economista, estructuralista y desarrollista. 
