@@ -1,5 +1,5 @@
 baseurl = "https://fergd.rbind.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "EconoViz "
+title = "экономика!"
 copyright = "&copy; 2017 Fernando García Díaz"
 theme = "hugo-academic"
 enableEmoji = true 

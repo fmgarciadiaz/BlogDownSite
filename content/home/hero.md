@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "EconoViz"
+title = "Blog!"
 
 # Order that this section will appear in.
 weight = 3
@@ -26,4 +26,4 @@ weight = 3
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
-Economía, desarrollo, visualizaciones, discusiones :rocket:
+Economía & desarrollo, visualizaciones, discusiones :rocket:
