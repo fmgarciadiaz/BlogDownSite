@@ -43,7 +43,7 @@ g &amp;lt;- ggplot( data = ARG_sociosX , aes(area = export_val/1000000 , fill = 
 dim(ARG_sociosX)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 179  16&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;g&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-12-24-prueba_files/figure-html/cars-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-12-24-prueba_files/figure-html/paises-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/section&gt;
 </description>
     </item>
