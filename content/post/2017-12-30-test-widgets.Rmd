@@ -1,0 +1,45 @@
+---
+title: Test Widgets
+author: Fergd
+date: '2017-12-30'
+slug: test-widgets
+categories: []
+tags: []
+---
+
+# Vamos a probar
+
+Esooooo!
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r wordcloud , echo = FALSE, message=FALSE, warning=FALSE }
+#***********************************************
+# MODULO DE PLOTEO de NUBE DE PALABRAS
+# FERGD 11-2017
+#***********************************************
+
+library(data.table)
+library(dplyr)
+library(wordcloud2)
+
+"%+%" <- function(x,y) paste(x,y,sep="") # se define %+% como concatenacion
+data_dir <- "/Users/fernandogarciadiaz/Dropbox/Working Papers/WordCloud/Data/"
+# Carga
+Palabras <- fread( data_dir %+% "Palabras.csv",encoding="UTF-8",stringsAsFactors = FALSE, strip.white = TRUE, skip = 0, header = TRUE)
+
+# Nube 1
+#webshot::install_phantomjs()     # para capturar el wordcloud
+wordcloud2(Palabras, size = 0.5, shape = 'circle' , minRotation = -pi/6, maxRotation = -pi/6, minSize = 10,
+  rotateRatio = 1 , backgroundColor = "transparent")    # generar
+#saveWidget(g, results_dir %+% "tmp.html",selfcontained = F , background = "transparent") # guardar en html
+#webshot(results_dir %+% "tmp.html", results_dir %+% "fig_1.png", delay =50, vwidth = 3000, vheight=3000, 
+#        cliprect = "viewport", zoom = 4) #mandar a pdf
+
+```
+
+Anduve!
+
