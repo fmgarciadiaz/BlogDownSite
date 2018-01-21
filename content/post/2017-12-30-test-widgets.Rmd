@@ -32,6 +32,3 @@ wordcloud2(Palabras, size = 0.5, shape = 'circle' , minRotation = -pi/6,
            backgroundColor = "transparent")    # generar
 
 ```
-
-Anduve!
-reeee
