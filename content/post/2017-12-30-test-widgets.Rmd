@@ -27,14 +27,11 @@ Palabras <- fread( data_dir %+% "Palabras.csv",encoding="UTF-8",stringsAsFactors
 
 # Nube 1
 #webshot::install_phantomjs()     # para capturar el wordcloud
-wordcloud2(Palabras, size = 0.5, shape = 'circle' , minRotation = -pi/6, maxRotation = -pi/6, minSize = 10,
-  rotateRatio = 1 , backgroundColor = "transparent")    # generar
+wordcloud2(Palabras, size = 0.5, shape = 'circle' , minRotation = -pi/6, 
+           maxRotation = -pi/6, minSize = 10,rotateRatio = 1 , 
+           backgroundColor = "transparent")    # generar
 
 ```
 
 Anduve!
 reeee
-# fefe
-\begin{equation} \label{5} \frac{\partial P}{\partial w} = \left\lbrack I -
-\left( 1 + r \right)A \right\rbrack^{- 1}L \succ 0\ \ \ (\text{con}\ 0 \leq r <
-r_{\max}) \end{equation}
