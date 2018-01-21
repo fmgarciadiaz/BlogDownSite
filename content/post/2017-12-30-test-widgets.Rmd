@@ -23,7 +23,7 @@ library(wordcloud2)
 "%+%" <- function(x,y) paste(x,y,sep="") # se define %+% como concatenacion
 data_dir <- "/Users/fernandogarciadiaz/Dropbox/Working Papers/WordCloud/Data/"
 # Carga
-Palabras <- fread( data_dir %+% "Palabras.csv",encoding="UTF-8",stringsAsFactors = FALSE, strip.white = TRUE, skip = 0, header = TRUE)
+Palabras <- fread( data_dir %+% "Palabras.csv",encoding="UTF-8",stringsAsFactors = FALSE, strip.white = TRUE, skip = 0, header = TRUE) 
 
 # Nube 1
 #webshot::install_phantomjs()     # para capturar el wordcloud
