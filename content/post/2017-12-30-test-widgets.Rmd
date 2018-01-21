@@ -7,14 +7,8 @@ categories: []
 tags: []
 ---
 
+
 # Vamos a probar
-
-Esooooo!
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 
 ```{r wordcloud , echo = FALSE, message=FALSE, warning=FALSE }
 #***********************************************
@@ -35,11 +29,12 @@ Palabras <- fread( data_dir %+% "Palabras.csv",encoding="UTF-8",stringsAsFactors
 #webshot::install_phantomjs()     # para capturar el wordcloud
 wordcloud2(Palabras, size = 0.5, shape = 'circle' , minRotation = -pi/6, maxRotation = -pi/6, minSize = 10,
   rotateRatio = 1 , backgroundColor = "transparent")    # generar
-#saveWidget(g, results_dir %+% "tmp.html",selfcontained = F , background = "transparent") # guardar en html
-#webshot(results_dir %+% "tmp.html", results_dir %+% "fig_1.png", delay =50, vwidth = 3000, vheight=3000, 
-#        cliprect = "viewport", zoom = 4) #mandar a pdf
 
 ```
 
 Anduve!
-
+reeee
+# fefe
+\begin{equation} \label{5} \frac{\partial P}{\partial w} = \left\lbrack I -
+\left( 1 + r \right)A \right\rbrack^{- 1}L \succ 0\ \ \ (\text{con}\ 0 \leq r <
+r_{\max}) \end{equation}

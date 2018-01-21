@@ -28,7 +28,7 @@ abstract = "En este artículo se presenta una extensión del sistema clásico de
 image_preview = "posts/Frontera.png"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

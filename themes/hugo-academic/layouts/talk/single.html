@@ -34,11 +34,9 @@
             {{ $date := .Params.time_start | default .Date }}
             {{ (time $date).Format $.Site.Params.date_format }}
             <div class="talk-time">
-              {{ if $.Site.Params.talks.time }}
-                {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
-                {{ with .Params.time_end }}
-                  &mdash; {{ (time .).Format ($.Site.Params.time_format | default "3:04 PM") }}
-                {{ end }}
+              {{ (time $date).Format "3:04 PM" }}
+              {{ with .Params.time_end }}
+              &mdash; {{ (time .).Format "3:04 PM" }}
               {{ end }}
             </div>
           </div>
@@ -101,8 +99,6 @@
     <div class="article-style">
       {{ .Content }}
     </div>
-
-    {{ partial "tags.html" . }}
 
   </div>
 </div>

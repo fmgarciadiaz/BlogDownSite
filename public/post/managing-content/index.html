@@ -28,7 +28,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   
   
-  
 
 
   
@@ -62,22 +61,6 @@
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
   <link rel="canonical" href="/post/managing-content/">
-
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="twitter:site" content="@Fergd1978">
-  <meta property="twitter:creator" content="@Fergd1978">
-  
-  <meta property="og:site_name" content="EconViz">
-  <meta property="og:url" content="/post/managing-content/">
-  <meta property="og:title" content="Managing content | EconViz">
-  <meta property="og:description" content="">
-  <meta property="og:locale" content="es">
-  
-  <meta property="article:published_time" content="2016-04-18T00:00:00-03:00">
-  
-  <meta property="article:modified_time" content="2016-04-18T00:00:00-03:00">
-  
 
   
 
@@ -184,10 +167,8 @@
 
 
   <div class="article-container">
-    <div class="article-inner">
-      <h1 itemprop="name">Managing content</h1>
-
-      
+    <h1 itemprop="name">Managing content</h1>
+    
 
 <div class="article-metadata">
 
@@ -259,15 +240,15 @@
 
 </div>
 
+    <div class="article-style" itemprop="articleBody">
+      
 
-      <div class="article-style" itemprop="articleBody">
-        <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
+<p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles , and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]</p>
 
 <p>To enable LaTeX math rendering for a page, you should include <code>math = true</code> in the page&rsquo;s <code>+++</code> preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set <code>math = true</code> in <code>config.toml</code>.</p>
 
-<p>To disable source code highlighting by default for all pages, set <code>highlight = false</code> in <code>config.toml</code>. You can then enable source code highlighting only on pages that need it by setting <code>highlight = true</code> in that page&rsquo;s preamble. See the <a href="/post/writing-markdown-latex/#code-highlighting" target="_blank">code-highlighting docs</a> for more details.</p>
-
-<p>To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&rsquo;s <code>+++</code> preamble. It is assumed that the image is located in your <code>static/img/</code> folder, so the full path in the example below will be <code>static/img/headers/getting-started.png</code>. The <code>caption</code> parameter can be used to write an image caption or credit.</p>
+<p>To disable source code highlighting by default for all pages, set <code>highlight = false</code> in <code>config.toml</code>. You can then enable source code highlighting only on pages that need it by setting <code>highlight = true</code> in that page&rsquo;s preamble. See the [code-highlighting docs]
+To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&rsquo;s <code>+++</code> preamble. It is assumed that the image is located in your <code>static/img/</code> folder, so the full path in the example below will be <code>static/img/headers/getting-started.png</code>. The <code>caption</code> parameter can be used to write an image caption or credit.</p>
 
 <pre><code class="language-toml">[header]
 image = &quot;headers/getting-started.png&quot;
@@ -483,37 +464,27 @@ widgets = true
 <p>You may then deploy your site by copying the <code>public/</code> directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.</p>
 
 <p>Note that running <code>hugo</code> does not remove any previously generated files before building. Therefore, it&rsquo;s best practice to delete your <code>public/</code> directory prior to running <code>hugo</code> to ensure no old or interim files are deployed to your server.</p>
-      </div>
-
-      
-
-
-<div class="article-tags">
-  
-  <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/hugo">hugo</a>
-  
-</div>
-
-
 
     </div>
+
+    
+    
+    
+    <div class="article-tags">
+      
+      <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
+      
+      <a class="btn btn-primary btn-outline" href="/tags/hugo">hugo</a>
+      
+    </div>
+    
+    
+
   </div>
 
 </article>
 
 
-
-<div class="article-container article-widget">
-  <div class="hr-light"></div>
-  <h3>Relacionado</h3>
-  <ul>
-    
-    <li><a href="/post/faq/">Frequently Asked Questions (FAQ)</a></li>
-    
-  </ul>
-</div>
 
 
 
