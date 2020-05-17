@@ -16,18 +16,19 @@
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/test-widgets/</guid>
-      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;/rmarkdown-libs/wordcloud2/wordcloud.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script src=&#34;/rmarkdown-libs/wordcloud2/wordcloud2-all.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;/rmarkdown-libs/wordcloud2/hover.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;/rmarkdown-libs/wordcloud2-binding/wordcloud2.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;section id=&#34;vamos-a-probar&#34; class=&#34;level1&#34;&gt;
+&lt;div id=&#34;vamos-a-probar&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Vamos a probar&lt;/h1&gt;
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;wordcloud2 html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;word&#34;:[&#34;Industria 4.0&#34;,&#34;Industria Argentina&#34;,&#34;Producción Inteligente&#34;,&#34;Machine Learning&#34;,&#34;Inteligencia Artificial&#34;,&#34;Automatización&#34;,&#34;Sistemas Cyber Físicos&#34;,&#34;Digitalización&#34;,&#34;Big Data&#34;,&#34;Internet de las Cosas&#34;,&#34;Productos Inteligentes&#34;,&#34;Cloud (Nube)&#34;,&#34;Redes Sociales&#34;,&#34;Sistemas Integrados&#34;,&#34;Fábricas Inteligentes&#34;,&#34;Conectividad&#34;,&#34;Competitividad&#34;,&#34;Internet&#34;,&#34;Medio Ambiente&#34;,&#34;eCommerce&#34;,&#34;Robots&#34;,&#34;Cobots&#34;,&#34;M2M&#34;,&#34;Aplicaciones&#34;,&#34;Nuevos Modelos&#34;,&#34;B2B&#34;,&#34;Innovación&#34;,&#34;Consumo Personalizado&#34;,&#34;Fintech&#34;,&#34;Virtual&#34;,&#34;Agilidad&#34;,&#34;Software&#34;,&#34;Vanguardia&#34;,&#34;Diseño&#34;,&#34;Moda&#34;,&#34;Personalización&#34;,&#34;Capacidades&#34;,&#34;Complejidad&#34;,&#34;Nanotecnología&#34;,&#34;Biotecnología&#34;,&#34;Text Mining&#34;,&#34;Información&#34;,&#34;Diferenciación&#34;,&#34;Cambio Permanente&#34;,&#34;Modernización&#34;,&#34;Mejora Continua&#34;,&#34;Kaizen&#34;,&#34;Energías Renovables&#34;,&#34;Horizontes&#34;,&#34;Posible&#34;,&#34;Deseable&#34;,&#34;Emociones&#34;,&#34;Análisis&#34;,&#34;Datos&#34;,&#34;Futuro&#34;,&#34;Velocidad&#34;,&#34;Inspiración&#34;,&#34;Sofisticación&#34;,&#34;Visualización&#34;,&#34;Consumidor&#34;,&#34;Productor&#34;,&#34;Sustentable&#34;,&#34;Sostenible&#34;,&#34;Eficiente&#34;,&#34;Eficaz&#34;],&#34;freq&#34;:[11,8,9,9,8,8,8,8,8,8,7,7,7,6,6,6,5,5,5,5,5,5,5,4,4,4,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],&#34;fontFamily&#34;:&#34;Segoe UI&#34;,&#34;fontWeight&#34;:&#34;bold&#34;,&#34;color&#34;:&#34;random-dark&#34;,&#34;minSize&#34;:10,&#34;weightFactor&#34;:8.18181818181818,&#34;backgroundColor&#34;:&#34;transparent&#34;,&#34;gridSize&#34;:0,&#34;minRotation&#34;:-0.523598775598299,&#34;maxRotation&#34;:-0.523598775598299,&#34;shuffle&#34;:true,&#34;rotateRatio&#34;:1,&#34;shape&#34;:&#34;circle&#34;,&#34;ellipticity&#34;:0.65,&#34;figBase64&#34;:null,&#34;hover&#34;:null},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
-&lt;/section&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;word&#34;:[&#34;Industria 4.0&#34;,&#34;Industria Argentina&#34;,&#34;Producción Inteligente&#34;,&#34;Machine Learning&#34;,&#34;Inteligencia Artificial&#34;,&#34;Automatización&#34;,&#34;Sistemas Cyber Físicos&#34;,&#34;Digitalización&#34;,&#34;Big Data&#34;,&#34;Internet de las Cosas&#34;,&#34;Productos Inteligentes&#34;,&#34;Cloud (Nube)&#34;,&#34;Redes Sociales&#34;,&#34;Sistemas Integrados&#34;,&#34;Fábricas Inteligentes&#34;,&#34;Conectividad&#34;,&#34;Competitividad&#34;,&#34;Internet&#34;,&#34;Medio Ambiente&#34;,&#34;eCommerce&#34;,&#34;Robots&#34;,&#34;Cobots&#34;,&#34;M2M&#34;,&#34;Aplicaciones&#34;,&#34;Nuevos Modelos&#34;,&#34;B2B&#34;,&#34;Innovación&#34;,&#34;Consumo Personalizado&#34;,&#34;Fintech&#34;,&#34;Virtual&#34;,&#34;Agilidad&#34;,&#34;Software&#34;,&#34;Vanguardia&#34;,&#34;Diseño&#34;,&#34;Moda&#34;,&#34;Personalización&#34;,&#34;Capacidades&#34;,&#34;Complejidad&#34;,&#34;Nanotecnología&#34;,&#34;Biotecnología&#34;,&#34;Text Mining&#34;,&#34;Información&#34;,&#34;Diferenciación&#34;,&#34;Cambio Permanente&#34;,&#34;Modernización&#34;,&#34;Mejora Continua&#34;,&#34;Kaizen&#34;,&#34;Energías Renovables&#34;,&#34;Horizontes&#34;,&#34;Posible&#34;,&#34;Deseable&#34;,&#34;Emociones&#34;,&#34;Análisis&#34;,&#34;Datos&#34;,&#34;Futuro&#34;,&#34;Velocidad&#34;,&#34;Inspiración&#34;,&#34;Sofisticación&#34;,&#34;Visualización&#34;,&#34;Consumidor&#34;,&#34;Productor&#34;,&#34;Sustentable&#34;,&#34;Sostenible&#34;,&#34;Eficiente&#34;,&#34;Eficaz&#34;],&#34;freq&#34;:[11,8,9,9,8,8,8,8,8,8,7,7,7,6,6,6,5,5,5,5,5,5,5,4,4,4,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],&#34;fontFamily&#34;:&#34;Segoe UI&#34;,&#34;fontWeight&#34;:&#34;bold&#34;,&#34;color&#34;:&#34;random-dark&#34;,&#34;minSize&#34;:10,&#34;weightFactor&#34;:8.18181818181818,&#34;backgroundColor&#34;:&#34;transparent&#34;,&#34;gridSize&#34;:0,&#34;minRotation&#34;:-0.523598775598299,&#34;maxRotation&#34;:-0.523598775598299,&#34;shuffle&#34;:true,&#34;rotateRatio&#34;:1,&#34;shape&#34;:&#34;circle&#34;,&#34;ellipticity&#34;:0.65,&#34;figBase64&#34;:null,&#34;hover&#34;:null},&#34;evals&#34;:[],&#34;jsHooks&#34;:{&#34;render&#34;:[{&#34;code&#34;:&#34;function(el,x){\n                        console.log(123);\n                        if(!iii){\n                          window.location.reload();\n                          iii = False;\n\n                        }\n  }&#34;,&#34;data&#34;:null}]}}&lt;/script&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -37,13 +38,16 @@
       <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/prueba/</guid>
-      <description>&lt;p&gt;#Test&lt;/p&gt;
-&lt;section id=&#34;r-markdown&#34; class=&#34;level2&#34;&gt;
+      <description>
+
+
+&lt;p&gt;#Test&lt;/p&gt;
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Markdown&lt;/h2&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;including-plots&#34; class=&#34;level2&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Including Plots&lt;/h2&gt;
 &lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2017-12-24-prueba_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
@@ -65,7 +69,7 @@ dim(ARG_sociosX)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 179  16&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;g&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2017-12-24-prueba_files/figure-html/paises-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     

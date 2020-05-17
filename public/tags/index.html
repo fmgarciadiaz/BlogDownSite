@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -53,18 +55,18 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="EconViz">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="EconViz">
+  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="EconViz">
+  <link rel="feed" href="/tags/index.xml" type="application/rss+xml" title="EconViz">
   
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="/post/prueba/">
+  <link rel="canonical" href="/tags/">
 
   
 
-  <title>Pruebita vas a ver | EconViz</title>
+  <title>Tags | EconViz</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,166 +163,50 @@
 </nav>
 
 
-<article class="article" itemscope itemtype="http://schema.org/Article">
-
-  
 
 
-  <div class="article-container">
-    <h1 itemprop="name">Pruebita vas a ver</h1>
-    
 
-<div class="article-metadata">
+<div class="universal-wrapper">
 
-  <span class="article-date">
-    
-    <time datetime="2017-12-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Dec 24, 2017
-    </time>
-  </span>
+  <h1>Tags</h1>
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min de lectura
-  </span>
   
 
   
   
-  <span class="middot-divider"></span>
-  <a href="/post/prueba/#disqus_thread"></a>
-  
-
-  
-  
-  
-  
-
-  
-  
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Pruebita%20vas%20a%20ver&amp;url=%2fpost%2fprueba%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2fprueba%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fprueba%2f&amp;title=Pruebita%20vas%20a%20ver"
-         target="_blank" rel="noopener">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fprueba%2f&amp;title=Pruebita%20vas%20a%20ver"
-         target="_blank" rel="noopener">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Pruebita%20vas%20a%20ver&amp;body=%2fpost%2fprueba%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
-  
-
-</div>
-
-    <div class="article-style" itemprop="articleBody">
+  <div>
+    <h2><a href="/tags/academic/">Content tagged as &#39;Academic&#39;</a></h2>
+    <div class="article-style">
       
-
-
-<p>#Test</p>
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="/post/2017-12-24-prueba_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
-<pre class="r"><code>library(ggplot2)
-library(treemapify)
-library(hrbrthemes)
-ARG_sociosX &lt;- readRDS(&quot;/Users/fernandogarciadiaz/Dropbox/Trabajo/EconomiaComplejidad/ARG_sociosX.rds&quot;)
-g &lt;- ggplot( data = ARG_sociosX , aes(area = export_val/1000000 , fill = region, subgroup = region)) +
-  treemapify::geom_treemap(color = &quot;white&quot;, size = 1 , alpha = 1) +
-  geom_treemap_text(aes(label = country) , color = &quot;black&quot;, size = 10 , family = font_rc) +
-  geom_treemap_subgroup_border(color = &quot;white&quot;, size = 2) + 
-  geom_treemap_subgroup_text(color = &quot;darkgray&quot;, grow = FALSE , size = 15, , place = &quot;bottomleft&quot;, family = font_rc, fontface = &quot;bold&quot;, alpha = 0.7) +
-  scale_fill_brewer(palette = &quot;Set1&quot;, guide = FALSE) + 
-  scale_color_brewer(palette = &quot;Set1&quot;, guide = FALSE) + theme_ipsum_rc() +
-  labs(title = &quot;Destino de exportaciones industriales argentinas (SITC 5 al 8) - Año 2014&quot;, 
-     caption = &quot;Fuente: F.García Díaz en base a COMTRADE&quot;)
-dim(ARG_sociosX)</code></pre>
-<pre><code>## [1] 179  16</code></pre>
-<pre class="r"><code>g</code></pre>
-<p><img src="/post/2017-12-24-prueba_files/figure-html/paises-1.png" width="672" /></p>
-</div>
-
     </div>
-
-    
-    
-    
-    
-
   </div>
-
-</article>
-
-
-
-
-
-
-<div class="article-container">
   
-<section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "blogdownsite" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
+  <div>
+    <h2><a href="/tags/deep-learning/">deep-learning</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/tags/demo/">demo</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/tags/hugo/">hugo</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+
+  
 
 
 </div>
-
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -412,4 +298,6 @@ dim(ARG_sociosX)</code></pre>
 
   </body>
 </html>
+
+
 
